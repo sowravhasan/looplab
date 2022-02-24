@@ -1,0 +1,63 @@
+/* default css */
+.primary-bg{
+    background: #0869D2;
+}
+body {
+    background: #333!important;
+    color: #fff!important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.mynav{
+    background: #292b2c;
+    opacity: 0.7;
+    border-bottom: 3px solid #0869D2;
+}
+/* home section */
+.home-section{
+    background: url(../img/home.jpg) no-repeat center top;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+.home-overlay{
+    background: rgba(0, 0, 0, .7);
+    min-height: 700px;
+}
+.home-icon i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    font-size: 30px;
+    color: #0869D2;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.explore-content-icon-item i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #333;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+/* footer */
+.footer-content a{
+    text-decoration: none;
+}
